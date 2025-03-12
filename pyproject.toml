@@ -38,8 +38,8 @@ dependencies = [
     "scikit-image",
     "scikit-learn",
     "tabulate",  # used by pandas.DataFrame.to_markdown (for logging context)
-    "tensorflow",
-    # "tfds-nightly",  # TODO(klausg): switch back to tensorflow_datasets>=4.9.7
+    # "tensorflow",
+    "tfds-nightly",  # TODO(klausg): switch back to tensorflow_datasets>=4.9.7
     # once released: https://github.com/tensorflow/datasets/commit/d4bfd59863c6cb5b64d043b7cb6ab566e7d92440
     "tqdm",
     "typeguard>=4.4.1",
