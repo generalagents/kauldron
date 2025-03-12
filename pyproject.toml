@@ -22,7 +22,7 @@ dependencies = [
     "einops",
     "etils[edc,enp,epath,epy,etree]",
     "flax",
-    "grain",
+    # "grain",
     "graphviz",
     "immutabledict",
     "jax",
@@ -39,12 +39,12 @@ dependencies = [
     "scikit-learn",
     "tabulate",  # used by pandas.DataFrame.to_markdown (for logging context)
     "tensorflow",
-    "tfds-nightly",  # TODO(klausg): switch back to tensorflow_datasets>=4.9.7
+    # "tfds-nightly",  # TODO(klausg): switch back to tensorflow_datasets>=4.9.7
     # once released: https://github.com/tensorflow/datasets/commit/d4bfd59863c6cb5b64d043b7cb6ab566e7d92440
     "tqdm",
     "typeguard>=4.4.1",
     "typing_extensions",
-    "xmanager",
+    # "xmanager",
     # lazy deps (should ideally remove those)
     # "grand_vision",
 ]
